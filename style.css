@@ -1,0 +1,158 @@
+body {
+    background-image: url('img/baclgroundIndex.jpg');
+    background-size: cover;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* -----------FONT ENCABEZADOS----------- */
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #4b2893;
+    text-shadow: 2px 2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000, 0px -2px 0 #000;
+}
+
+/* ------------HEADER Y LOGO IMAGENES DE CABECERA------------ */
+header{
+    --bs-bg-opacity: 0.5;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.lobito {
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+}
+
+.fontI {
+    font-size: 20px;
+}
+
+i {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+#iconos {
+    text-align: end;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------BARRA DE NAVEGACIÓN Y TRANSPARENCIA------------*/
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover,
+.nav-brand:hover {
+    color: #b438c4 !important;
+}
+
+/* ------------DROPDOWN HOVER------------ */
+.dropdown-item:hover {
+    background-color: #4b2893;
+}
+
+.dropdown-menu {
+    background-color: black;
+    border: 1px solid #4b2893;
+}
+
+/* ------------PLANTILLA GENERAL------------ */
+
+.plantillaGeneral {
+    background-color: #000;
+    box-shadow: 5px 10px 8px #363140;
+    width: 1000px;
+    margin-top: 20px;
+    padding-bottom: 200px;
+    --bs-bg-opacity: 0.3;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/* ----------PARA CARRUSEL----------- */
+
+.gifIntro {
+    width: 950px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------LORE GUILD------------ */
+.loreimg {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.parrafo {
+    width: 800px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.classIcono {
+    width: 200px;
+}
+
+.col-sm {
+    border: 1px solid #66008bdf;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 50px;
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #66008bdf;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.card-img-top {
+    border-radius: 50px;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+.card-body{
+    background-color: #000;
+}
+
+.iconoVolver {
+    margin-left: 90%;
+}
+
+/* ------------FOOTER------------ */
+
+footer {
+    margin-top: 500px;
+}
+
+
+/* -----------TOOLTIP------------ */
+.tooltip-custom .tooltip-inner {
+    background-color: #4b2893 !important;
+}
